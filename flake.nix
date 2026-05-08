@@ -5,7 +5,7 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
     src = {
-      url = "path:/home/thomas/projects/nix-packages/quien";
+      url = "github:retlehs/quien/v0.8.1";
       flake = false;
     };
   };
@@ -14,14 +14,14 @@
     flake-utils.lib.eachDefaultSystem (system:
       let
         pkgs = nixpkgs.legacyPackages.${system};
-        version = "0.1.0";
+        version = "0.8.1";
       in
       {
         packages.default = pkgs.buildGoModule {
           pname = "quien";
           inherit version src;
 
-          vendorHash = "sha256-q1HAlPIYe/nd5pYW+vZIABxfASlcFXhGNV71SY2ggsc=";
+          vendorHash = "sha256-/uizVtnbjkm4CTVxLECFeqBsBEue5vb7QALA+RbLmSc=";
 
           ldflags = [
             "-s"
