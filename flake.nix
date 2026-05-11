@@ -5,7 +5,7 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
     src = {
-      url = "github:retlehs/quien/v0.8.1";
+      url = "github:retlehs/quien/v0.9.0";
       flake = false;
     };
   };
@@ -14,7 +14,7 @@
     flake-utils.lib.eachDefaultSystem (system:
       let
         pkgs = nixpkgs.legacyPackages.${system};
-        version = "0.8.1";
+        version = "0.9.0";
       in
       {
         packages.default = pkgs.buildGoModule {

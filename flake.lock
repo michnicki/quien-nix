@@ -44,16 +44,16 @@
     "src": {
       "flake": false,
       "locked": {
-        "lastModified": 1778183354,
-        "narHash": "sha256-aZfuV/oMjsszzZV5PeaQa2OQAjRniqbtJL7pd2oQucE=",
+        "lastModified": 1778357378,
+        "narHash": "sha256-ZvSgXKicJpwfaLLnWiMdHJio3Y3gjg3N50+jiT/77u8=",
         "owner": "retlehs",
         "repo": "quien",
-        "rev": "31b66435f1ee0d0012e44ceee8422a064f72e414",
+        "rev": "c3f9b3554388ade799cc7f3a85cc323ec9417c55",
         "type": "github"
       },
       "original": {
         "owner": "retlehs",
-        "ref": "v0.8.1",
+        "ref": "v0.9.0",
         "repo": "quien",
         "type": "github"
       }
