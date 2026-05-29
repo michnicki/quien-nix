@@ -20,11 +20,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1775710090,
-        "narHash": "sha256-ar3rofg+awPB8QXDaFJhJ2jJhu+KqN/PRCXeyuXR76E=",
+        "lastModified": 1779560665,
+        "narHash": "sha256-tpyBcxPpcQb8ukyNF7DoCwfSY3VPsxHoYwj00Cayv5o=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "4c1018dae018162ec878d42fec712642d214fdfa",
+        "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
         "type": "github"
       },
       "original": {
@@ -44,16 +44,16 @@
     "src": {
       "flake": false,
       "locked": {
-        "lastModified": 1778357378,
-        "narHash": "sha256-ZvSgXKicJpwfaLLnWiMdHJio3Y3gjg3N50+jiT/77u8=",
+        "lastModified": 1779894218,
+        "narHash": "sha256-2Ce8bctFJiz4BqQVOBqcBH94X6zrCXB3owknYb220bk=",
         "owner": "retlehs",
         "repo": "quien",
-        "rev": "c3f9b3554388ade799cc7f3a85cc323ec9417c55",
+        "rev": "6160f3edd5329216b9b9be8a08630d5aacf9cca1",
         "type": "github"
       },
       "original": {
         "owner": "retlehs",
-        "ref": "v0.9.0",
+        "ref": "v0.10.0",
         "repo": "quien",
         "type": "github"
       }
