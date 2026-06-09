@@ -21,7 +21,7 @@
           pname = "quien";
           inherit version src;
 
-          vendorHash = "sha256-/uizVtnbjkm4CTVxLECFeqBsBEue5vb7QALA+RbLmSc=";
+          vendorHash = "sha256-aErscLglpLDXH5jxEt6KFDlBH2JjtXDcX4J3YrL5ouI=";
 
           ldflags = [
             "-s"
